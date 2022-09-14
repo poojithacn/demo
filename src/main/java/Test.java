@@ -14,8 +14,8 @@ class  Test {
 
         FileInputStream fis = new FileInputStream(f);
         ObjectInputStream ois = new ObjectInputStream(fis);
-        Save s = (Save) ois.readObject();
-        System.out.println(s.i);
+        Save s2 = (Save) ois.readObject();
+        System.out.println(s2.i);
 
     }
 }
